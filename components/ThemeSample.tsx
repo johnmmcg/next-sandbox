@@ -1,14 +1,14 @@
-'use client';
-import { useEffect } from 'react';
-import { themeChange } from 'theme-change';
+'use client'
+import { useEffect } from 'react'
+import { themeChange } from 'theme-change'
 
-const THEMES = ['light', 'dark'];
+const THEMES = ['dark', 'light']
 
 export default function ThemeSample() {
   useEffect(() => {
-    themeChange(false);
+    themeChange(false)
     // 👆 false parameter is required for react project
-  }, []);
+  }, [])
 
   return (
     <div className=" h-full w-full flex-1 overflow-hidden bg-base-100 font-sans text-base-content">
@@ -16,26 +16,13 @@ export default function ThemeSample() {
         <div className="col-start-1 row-span-2 row-start-1 border-b-2 border-r-2 border-accent bg-base-200"></div>
         <div className="col-start-1 row-start-3 border-r-2 border-accent"></div>
         <div className="col-span-4 col-start-2 row-span-3 row-start-1 flex flex-col gap-2 bg-base-100 p-2">
-          <form
-            action="theme"
-            className="form-control flex h-auto justify-center"
-          >
-            <label
-              htmlFor="theme-selector"
-              className="label"
-            >
+          <form action="theme" className="form-control flex h-auto justify-center">
+            <label htmlFor="theme-selector" className="label">
               <span className="label-text">Select Theme:</span>
             </label>
-            <select
-              id="theme-selector"
-              data-choose-theme
-              className="select-bordered select"
-            >
+            <select id="theme-selector" data-choose-theme className="select-bordered select">
               {THEMES.map((t) => (
-                <option
-                  key={t}
-                  value={t}
-                >
+                <option key={t} value={t}>
                   {t}
                 </option>
               ))}
@@ -59,5 +46,5 @@ export default function ThemeSample() {
         </div>
       </div>
     </div>
-  );
+  )
 }
