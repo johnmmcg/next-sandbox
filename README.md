@@ -1,4 +1,7 @@
-# Built on [John's Next + TailwindCSS + DaisyUI Boilerplate] (https://github.com/johnmmcg/next-tailwind-daisyui-bp)
+# John's Next.js Sandbox
+
+## Built on John's Next + TailwindCSS + DaisyUI Boilerplate
+[Repo](https://github.com/johnmmcg/next-tailwind-daisyui-bp)
 
 ## Create Next App details:
 
