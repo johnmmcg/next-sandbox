@@ -1,0 +1,30 @@
+.footer {
+  height: auto;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  gap: 1rem;
+}
+
+.navItems {
+  margin-bottom: 1rem;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-directin: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.navItem {
+  display: inline-block;
+  margin-right: 1rem;
+  text-decoration: underline;
+  transition: filter 0.2s;
+}
+
+.navItem:hover {
+  filter: brightness(0.8);
+}
