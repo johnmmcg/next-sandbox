@@ -12,7 +12,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <main className={styles.main}>
+    <main className={`${styles.main} ${inter.className}`}>
       <header className="text-center">
         <h1 className="text-3xl">John's Sandbox</h1>
         <h2 className="text-2xl">Next + React + TailwindCSS + DaisyUI Boilerplate</h2>
