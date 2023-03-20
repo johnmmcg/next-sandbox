@@ -1,4 +1,6 @@
-# Next + TailwindCSS + DaisyUI Boilerplate
+# John's Next Sandbox
+
+## Next + TailwindCSS + DaisyUI Boilerplate
 
 ## Create Next App details:
 
