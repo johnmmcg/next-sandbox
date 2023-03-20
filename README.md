@@ -1,4 +1,4 @@
-# Built on John's Next + TailwindCSS + DaisyUI Boilerplate (https://github.com/johnmmcg/next-tailwind-daisyui-bp)
+# Built on [John's Next + TailwindCSS + DaisyUI Boilerplate] (https://github.com/johnmmcg/next-tailwind-daisyui-bp)
 
 ## Create Next App details:
 
